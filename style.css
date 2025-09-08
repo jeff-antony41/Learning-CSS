@@ -1,0 +1,26 @@
+/* External CSS with basic selectors */
+/*This is class selector*/
+.hello{
+    color: #b45e67;
+}
+
+/*This is tag + class selector*/
+h3.hello{
+    color: rgba(32, 88, 128, 0.801);
+}
+
+/*This is ID selector*/
+#learn{
+    color: hsl(110, 46%, 26%);
+}
+
+/* This is universal selector */
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* This is group selector */
+h5,h6,p{
+    font-style: italic;
+    text-decoration: underline;
+}
