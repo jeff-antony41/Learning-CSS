@@ -1,0 +1,39 @@
+/* Background styling */
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Border styling */
+#hey{
+    border-style: dotted double;
+    border-color: rgb(107, 57, 4);
+    border-width: 5px 6px;
+    border-radius: 15px 20px;
+}
+
+/* Margin */
+h2{
+    border: solid 5px;
+    /* margin: 50px 40px 37px 47px; */
+    margin: 30px auto;
+    width: 232px;
+
+}
+
+/* Padding */
+h2{
+    padding: 12px 14px 20px 16px;
+}
+
+/* Height and Width */
+.hello{
+    border: 4px dashed;
+    height: 170px;
+    width: 450px;
+    min-width: 400px;
+    max-width: 500px;
+    min-height: 150px;
+    max-height: 200px;
+}
